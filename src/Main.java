@@ -1,0 +1,17 @@
+import com.estrutura.listadupla.ListaDuplamenteEncadeada;
+
+public class Main {
+    public static void main(String[] args) {
+        ListaDuplamenteEncadeada <String> minhaListaEncadeada = new ListaDuplamenteEncadeada<>();
+
+        minhaListaEncadeada.add("c1");
+        minhaListaEncadeada.add("c2");
+        minhaListaEncadeada.add("c3");
+        minhaListaEncadeada.add("c4");
+
+        System.out.println(minhaListaEncadeada);
+        minhaListaEncadeada.add(3,"99");
+        System.out.println(minhaListaEncadeada);
+
+    }
+}
